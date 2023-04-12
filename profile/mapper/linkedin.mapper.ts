@@ -23,8 +23,8 @@ export function profileMapperToDB(profile: LinkedinProfileOutput): Profile {
 function profileExperienceMapper(experiences: LinkedinExperienceOutput[]) {
     return experiences.map(experience => {
         const resutlt = removeEmptyValues({
-           title: experience.title, 
-           start: profilePeriodFormatter(experience.starts_at),
+           title: experience.title,
+           ...(experience?.starts_at && {start: profilePeriodFormatter(experience.starts_at)}),
            ...(experience?.ends_at && {end: profilePeriodFormatter(experience?.ends_at)}),
             company: experience.company,
             companyProfile: experience.company_linkedin_profile_url,
@@ -37,7 +37,7 @@ function profileExperienceMapper(experiences: LinkedinExperienceOutput[]) {
 function profileEducationMapper(education: LinkedinEducationOutput[]) {
     return education.map(item => {
         const result = removeEmptyValues({
-            start: profilePeriodFormatter(item.starts_at),
+            ...(item?.starts_at && {start: profilePeriodFormatter(item.starts_at)}),
             ...(item?.ends_at && {end: profilePeriodFormatter(item.ends_at)}),
             school: item.school,
             degree: item.degree_name,

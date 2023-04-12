@@ -6,11 +6,31 @@ function createProfileIndex() {
     return elasticClient.indices.create({
         index: 'profile',
         body: {
+            settings: {
+                analysis: {
+                    normalizer: {
+                        keyword_lowercase: {
+                            type: "custom",
+                            filter: ["lowercase"]
+                        }
+                    }
+                }
+            },
             mappings: {
                 properties: {
                     name: { type: "text" },
-                    city: {type: "keyword"},
-                    state: {type: "keyword"},
+                    city: {
+                        type: "keyword",
+                        normalizer: "keyword_lowercase"
+                    },
+                    state: {
+                        type: "keyword",
+                        normalizer: "keyword_lowercase"
+                    },
+                    country: {
+                        type: "keyword",
+                        normalizer: "keyword_lowercase"
+                    },
                     occupation: {type: "text"},
                     experiences: {
                         properties: {
@@ -25,11 +45,17 @@ function createProfileIndex() {
                         properties: {
                          start: {type: "date"},
                          end: { type: "date"},
-                         degree: {type: "keyword"},
+                         degree: {
+                            type: "keyword",
+                            normalizer: "keyword_lowercase"
+                            },
                             
                         },        
                     },
-                    languages: {type: "text"}               
+                    languages: {
+                        type: "keyword",
+                        normalizer: "keyword_lowercase"
+                    }               
                 }    
             }
         }

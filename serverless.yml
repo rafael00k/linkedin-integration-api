@@ -41,7 +41,7 @@ resources:
      Type: AWS::DynamoDB::Table
      DeletionPolicy: Delete
      Properties:
-      TableName: ProfileTableNew
+      TableName: Profile
       AttributeDefinitions:
         - AttributeName: id
           AttributeType: S

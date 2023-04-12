@@ -1,32 +1,30 @@
-// import { typeDynamo } from "../../database/dynamoDB.config";
-// import { getDynamoDB } from "../../database/dynamoDB.config";
+
 
 import { Item } from "dynamoose/dist/Item";
+import { getConfig } from "../../config/config";
 import { dynamoDB } from "../../config/dynamoDB.config";
 import { Profile } from "../core/entity/profile.entity";
 import { profileSchema } from "./profile.schema";
 
 
 export class ProfileDatabase {
-    constructor() {}
+    constructor() { }
 
-    private profileModel = dynamoDB.model('ProfileTableNew',profileSchema,{
+    private profileModel = dynamoDB.model(getConfig().PROFILE_TABLE || "", profileSchema, {
         create: false
     })
 
     async saveProfile(profile: Profile) {
-        const newProfile =  new this.profileModel(profile)
-        return await newProfile.save() 
-       
-        // const result = await this.profiseRepository.save(profile).execute()
-        // return result.data
+        const newProfile = new this.profileModel(profile)
+        return await newProfile.save()
+
     }
 
     async getProfile(id: string): Promise<Item> {
-        return this.profileModel.get({id})
+        return this.profileModel.get({ id })
     }
 
     async getProfiles(ids: string[]): Promise<Item[]> {
-        return Promise.all(ids.map(id => this.profileModel.get({id})))    
+        return Promise.all(ids.map(id => this.profileModel.get({ id })))
     }
 }

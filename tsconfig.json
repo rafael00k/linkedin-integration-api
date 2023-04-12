@@ -4,10 +4,12 @@
       "strictNullChecks": true,
       "sourceMap": true,
       "allowJs": true,
-      "target": "es5",
+      "target": "ESNext",
+      "module": "CommonJS",
       "outDir": ".build",
       "moduleResolution": "node",
-      "lib": ["es2015"],
+      "lib": ["es2016"],
       "rootDir": "./",
+      "typeRoots": ["./node_modules/@types", "./src/types"]
     }
   }
