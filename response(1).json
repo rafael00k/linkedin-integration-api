@@ -1,0 +1,282 @@
+{
+    "public_identifier": "rafael-ferraz-rodrigues",
+    "profile_pic_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/rafael-ferraz-rodrigues/profile?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230408%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230408T194531Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=13757d3105f01a87896d7e9ac25613f973e9e225db82de03c6ef05c02a5bf595",
+    "background_cover_image_url": "https://s3.us-west-000.backblazeb2.com/proxycurl/person/rafael-ferraz-rodrigues/cover?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=0004d7f56a0400b0000000001%2F20230408%2Fus-west-000%2Fs3%2Faws4_request&X-Amz-Date=20230408T194531Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=42969f44a7f246a0532c58bc883fa51730655aeec74fbd4a85edf9956852e3b0",
+    "first_name": "Rafael Ferraz",
+    "last_name": "Rodrigues",
+    "full_name": "Rafael Ferraz Rodrigues",
+    "follower_count": 404,
+    "occupation": "Engenheiro de software pleno - Desenvolvedor Backend at Outsmart Digital",
+    "headline": "Desenvolvedor Backend | NodeJS | Javascript | Typescript |  AWS | NestJS | Express | PostgreSQL | NoSQL |",
+    "summary": "Desenvolvedor backend com  3 anos de experi\u00eancia em desenvolvimento de software . Especialista em NodeJs utilizando Javascript e typescript  com experi\u00eancia em Ruby, al\u00e9m de ter conhecimento em frameworks como NestJs, Express e Ruby on Rails. Possuo habilidades em bancos de dados SQL (PostgreSQL) e NoSQL (DynamoDB) al\u00e9m de possuir  conhecimento em servi\u00e7os AWS (EC2, S3, Lambda) e Docker.  Tenho experi\u00eancia no uso de metodologias \u00e1geis como Scrum e Kanban.\n\nJ\u00e1 participei em projetos desafiadores, como a implementa\u00e7\u00e3o de uma solu\u00e7\u00e3o de pagamentos online, cria\u00e7\u00e3o de um sistema de m\u00e9tricas utilizando Elasticsearch e a padroniza\u00e7\u00e3o de uma base da dados SQL para o Censo de Educa\u00e7\u00e3o do ensino superior \n\nQuiser conversar, fique a vontade!\ncontato: rferrazrodrigues@gmail.com",
+    "country": "BR",
+    "country_full_name": "estonia",
+    "city": "Campinas",
+    "state": "S\u00e3o Paulo",
+    "experiences": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 11,
+                "year": 2022
+            },
+            "ends_at": null,
+            "company": "Outsmart Digital",
+            "company_linkedin_profile_url": "https://br.linkedin.com/company/outsmartdigitalbr",
+            "title": "Engenheiro de software pleno - Desenvolvedor Backend",
+            "description": "- Desenvolvimento de APIs utilizando utilizando NestJs com Typescript;\n\n- Cria\u00e7\u00e3o de endpoints para processamento de dados em CSV;\n\n- Trabalhando com infraestrutura AWS (EC2, SQS, CloudWatch);\n\n- Desenvolvimento de Api's em Ruby/ Ruby on Rails;\n\n- Utiliza\u00e7\u00e3o de Docker para Containeriza\u00e7\u00e3o de Aplica\u00e7\u00f5es;\n\n- Utiliza\u00e7\u00e3o de GRPC para comunica\u00e7\u00e3o de micro-servi\u00e7os",
+            "location": "S\u00e3o Paulo, Brasil",
+            "logo_url": "https://media.licdn.com/dms/image/C4E0BAQE_P8xAJ6AXhQ/company-logo_100_100/0/1623363793509?e=2147483647&v=beta&t=zreFHewVGGhVdh3DLm0bIDhG30x1nl1r3yqeUfLCPMU"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 4,
+                "year": 2021
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 11,
+                "year": 2022
+            },
+            "company": "Outsmart Digital",
+            "company_linkedin_profile_url": "https://br.linkedin.com/company/outsmartdigitalbr",
+            "title": "Engenheiro de software j\u00fanior - Desenvolvedor Backend",
+            "description": "- Desenvolvimento de APIs node utilizando express com Typescript;\n\n- Desenvolvimento de APIs   Servless  na aws (utilizando Servless framework);\n\n- Atualiza\u00e7\u00e3o de Infra AWS utilizando Terraform;\n\n- Utiliza\u00e7\u00e3o de Graphql (Queries e Mutations) para exposi\u00e7\u00e3o de endpoints;\n\n- Utiliza\u00e7\u00e3o do Elasticsearch para cria\u00e7\u00e3o de plataforma de analise de m\u00e9tricas (Utilizando aggregations) e feature de busca com autocomplete;\n\n- Utiliza\u00e7\u00e3o de Banco NoSQL (AWS DynamoDB);\n\n- Implementa\u00e7\u00e3o de sistema de Pagamentos, desenvolvendo uma integra\u00e7\u00e3o com a plataforma STRIPE\n            \n\n    \n    \n\n    \n        Exibir menos",
+            "location": null,
+            "logo_url": "https://media.licdn.com/dms/image/C4E0BAQE_P8xAJ6AXhQ/company-logo_100_100/0/1623363793509?e=2147483647&v=beta&t=zreFHewVGGhVdh3DLm0bIDhG30x1nl1r3yqeUfLCPMU"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 12,
+                "year": 2020
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 3,
+                "year": 2021
+            },
+            "company": "HIRIX Software & Technology",
+            "company_linkedin_profile_url": "https://br.linkedin.com/company/hirix-technology-software",
+            "title": "Desenvolvedor web",
+            "description": "Atua\u00e7\u00e3o  no Fluxo de sustenta\u00e7\u00e3o dos SIG's (Sistemas Integrados de Gestao: http://hirix.com.br/sigufrn/ ), analisando as demandas recebidas, atribuindo e orientando aos estagi\u00e1rios do setor e solucionando os problemas de sustenta\u00e7\u00e3o de maior complexidade, alinhado ao setor de \"Neg\u00f3cio\";\n\nTecnologias Utilizadas : JAVA,J2EE,JSF, Hibernate, Bancos: PostgreSQL e Oracle,JBoss,Javascript,maven,html e css, git.",
+            "location": null,
+            "logo_url": "https://media.licdn.com/dms/image/C4D0BAQFp7rjJOWKGlw/company-logo_100_100/0/1651245959309?e=2147483647&v=beta&t=HCBuiMarFM1QddN1YlghO1hfD2fgkliTxXg7_VPNi2A"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 9,
+                "year": 2019
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 4,
+                "year": 2020
+            },
+            "company": "HIRIX Software Engineering",
+            "company_linkedin_profile_url": "https://br.linkedin.com/company/hirix-technology-software",
+            "title": "Desenvolvedor j\u00fanior",
+            "description": "Atua\u00e7\u00e3o  no Fluxo de sustenta\u00e7\u00e3o dos SIG's (Sistemas Integrados de Gestao: http://hirix.com.br/sigufrn/ ), analisando as demandas recebidas, atribuindo e orientando aos estagi\u00e1rios do setor e solucionando os problemas de sustenta\u00e7\u00e3o de maior complexidade, alinhado ao setor de \"Neg\u00f3cio\"; Consultoria em elabora\u00e7\u00e3o de consultas SQL para realiza\u00e7\u00e3o do Censo da Educa\u00e7\u00e3o Superior - INEP; Aux\u00edlio na implanta\u00e7\u00e3o de m\u00f3dulos. \nTecnologias Utilizadas : JAVA,J2EE,JSF, Hibernate, Bancos: PostgreSQL e Oracle,JBoss,Javascript,maven,html e css, git.\n            \n\n    \n    \n\n    \n        Exibir menos",
+            "location": "Natal e Regi\u00e3o, Brasil",
+            "logo_url": "https://media.licdn.com/dms/image/C4D0BAQFp7rjJOWKGlw/company-logo_100_100/0/1651245959309?e=2147483647&v=beta&t=HCBuiMarFM1QddN1YlghO1hfD2fgkliTxXg7_VPNi2A"
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 11,
+                "year": 2020
+            },
+            "ends_at": null,
+            "company": "Freelance",
+            "company_linkedin_profile_url": null,
+            "title": "Desenvolvedor web freelancer",
+            "description": "Atua\u00e7\u00e3o como desenvolvedor web freelancer em empresar de Softwares tais como : Hirix e Grt8 Inova\u00e7\u00f5es e tecnologia. Utilizando tecnologias como : Java, JSF , Javascript , Angular.",
+            "location": null,
+            "logo_url": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 5,
+                "year": 2014
+            },
+            "ends_at": {
+                "day": 30,
+                "month": 9,
+                "year": 2019
+            },
+            "company": "Superintend\u00eancia de Inform\u00e1tica - UFRN",
+            "company_linkedin_profile_url": "https://br.linkedin.com/company/stiufrn",
+            "title": "Analista de helpdesk",
+            "description": "Suporte aos Usu\u00e1rios dos Sig\u2019s (Principalmente : SIGAA.\nSigElei\u00e7\u00e3o, SigEventos e SigAdmin), atrav\u00e9s da an\u00e1lise de chamados,\natendimentos telef\u00f4nicos, atendimentos presenciais e atendimento por\ne-mail; Elabora\u00e7\u00e3o de scripts SQL (Postgresql) para: gerar relat\u00f3rios\nsolicitados por usu\u00e1rios, cria\u00e7\u00e3o de grupos de votantes para o SigElei\u00e7\u00e3o,\ncria\u00e7\u00e3o de grupos de comunica\u00e7\u00e3o para o SigAdmin.",
+            "location": null,
+            "logo_url": "https://media.licdn.com/dms/image/C4E0BAQF2u6dDa8iwEA/company-logo_100_100/0/1619543612791?e=2147483647&v=beta&t=XF76JiwFBqVLxqiayLVk_9IAXA_Gbi9oXxT-ciekO98"
+        }
+    ],
+    "education": [
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2008
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2019
+            },
+            "field_of_study": "Engenharia El\u00e9trica",
+            "degree_name": "Gradua\u00e7\u00e3o",
+            "school": "Universidade Federal do Rio Grande do Norte",
+            "school_linkedin_profile_url": "https://br.linkedin.com/school/ufrn/",
+            "description": null,
+            "logo_url": "https://media.licdn.com/dms/image/C560BAQFe04mqmRZy0g/company-logo_100_100/0/1568064674419?e=2147483647&v=beta&t=ztOcrJgxOuFMnwmzxKH9NdYwZXiKWKxirY6cWkNHgRc",
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2016
+            },
+            "ends_at": {
+                "day": 31,
+                "month": 12,
+                "year": 2018
+            },
+            "field_of_study": "Tecnologia da Informa\u00e7\u00e3o",
+            "degree_name": "T\u00e9cnio",
+            "school": "Universidade Federal do Rio Grande do Norte",
+            "school_linkedin_profile_url": "https://br.linkedin.com/school/ufrn/",
+            "description": null,
+            "logo_url": "https://media.licdn.com/dms/image/C560BAQFe04mqmRZy0g/company-logo_100_100/0/1568064674419?e=2147483647&v=beta&t=ztOcrJgxOuFMnwmzxKH9NdYwZXiKWKxirY6cWkNHgRc",
+            "grade": null,
+            "activities_and_societies": null
+        },
+        {
+            "starts_at": {
+                "day": 1,
+                "month": 1,
+                "year": 2018
+            },
+            "ends_at": null,
+            "field_of_study": "Tecnologia da Informa\u00e7\u00e3o",
+            "degree_name": null,
+            "school": "Alura Cursos Online",
+            "school_linkedin_profile_url": "https://br.linkedin.com/school/aluracursos/",
+            "description": "Cursos Livres na \u00e1rea de desenvolvimento web : Java, JSF, Banco de Dados, Linux, Python",
+            "logo_url": "https://media.licdn.com/dms/image/C4D0BAQH9asE_b3_dgw/company-logo_100_100/0/1669690112973?e=2147483647&v=beta&t=rO0bBx9tRFOl1bVDJsAq27YYLcLAXyuaEmvtngqYpVo",
+            "grade": null,
+            "activities_and_societies": null
+        }
+    ],
+    "languages": [
+        "English"
+    ],
+    "accomplishment_organisations": [],
+    "accomplishment_publications": [],
+    "accomplishment_honors_awards": [],
+    "accomplishment_patents": [],
+    "accomplishment_courses": [],
+    "accomplishment_projects": [],
+    "accomplishment_test_scores": [],
+    "volunteer_work": [],
+    "certifications": [],
+    "connections": 406,
+    "people_also_viewed": [],
+    "recommendations": [],
+    "activities": [
+        {
+            "title": "\ud835\uddd5\ud835\uddf2 \ud835\uddd4\ud835\ude04\ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\uddfc\ud835\uddf3 \ud835\uddea\ud835\uddf5\ud835\uddee\ud835\ude01 \ud835\uddec\ud835\uddfc\ud835\ude02 \ud835\udde6\ud835\uddf5\ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\uddea\ud835\uddf6\ud835\ude01\ud835\uddf5 \ud835\uddd6\ud835\uddf5\ud835\uddee\ud835\ude01\ud835\uddda\ud835\udde3\ud835\udde7In a recent incident, \ud835\udde6\ud835\uddee\ud835\uddfa\ud835\ude00\ud835\ude02\ud835\uddfb\ud835\uddf4 \ud835\ude04\ud835\uddfc\ud835\uddff\ud835\uddf8\ud835\uddf2\ud835\uddff\ud835\ude00 \ud835\uddf9\ud835\uddf2\ud835\uddee\ud835\uddf8\ud835\uddf2\ud835\uddf1\u2026",
+            "link": "https://www.linkedin.com/posts/rafael-ferraz-rodrigues_technology-softwareengineering-artificialintelligence-activity-7049752512840503296-CC4E",
+            "activity_status": "Compartilhado por Rafael Ferraz Rodrigues"
+        },
+        {
+            "title": "\ud835\uddd5\ud835\uddf2 \ud835\uddd4\ud835\ude04\ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\uddfc\ud835\uddf3 \ud835\uddea\ud835\uddf5\ud835\uddee\ud835\ude01 \ud835\uddec\ud835\uddfc\ud835\ude02 \ud835\udde6\ud835\uddf5\ud835\uddee\ud835\uddff\ud835\uddf2 \ud835\uddea\ud835\uddf6\ud835\ude01\ud835\uddf5 \ud835\uddd6\ud835\uddf5\ud835\uddee\ud835\ude01\ud835\uddda\ud835\udde3\ud835\udde7In a recent incident, \ud835\udde6\ud835\uddee\ud835\uddfa\ud835\ude00\ud835\ude02\ud835\uddfb\ud835\uddf4 \ud835\ude04\ud835\uddfc\ud835\uddff\ud835\uddf8\ud835\uddf2\ud835\uddff\ud835\ude00 \ud835\uddf9\ud835\uddf2\ud835\uddee\ud835\uddf8\ud835\uddf2\ud835\uddf1\u2026",
+            "link": "https://www.linkedin.com/posts/milanmilanovic_technology-softwareengineering-artificialintelligence-activity-7049667729519259648-yfaF",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        },
+        {
+            "title": "It's true. Code can be perfect. But we first need the definition of perfect to be able to review. I am only afraid what perfect means for me does\u2026",
+            "link": "https://www.linkedin.com/posts/adrian-%F0%9F%9F%A3-b-b52348181_its-true-code-can-be-perfect-but-we-first-activity-7049282055347535872-ednR",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        },
+        {
+            "title": "Mais um dia de estudos com a Alura na #imers\u00e3oJava com os mestres feras do #java  Paulo Silveira, Jacqueline Oliveira e Alexandre Aquiles!Essa\u2026",
+            "link": "https://www.linkedin.com/posts/amanda-paiva-lino_imers%C3%A3ojava-java-activity-7047324984645447680-NK9D",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        },
+        {
+            "title": "O ChatGPT pode substituir desenvolvedores de software? Os compiladores substitu\u00edram em grande parte os programadores de linguagem assembly, mas\u2026",
+            "link": "https://www.linkedin.com/posts/rubenmarcus_o-chatgpt-pode-substituir-desenvolvedores-activity-7049155520573620224-8zgK",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        },
+        {
+            "title": "Ultimamente tenho criado interesse pelo paradigma funcional e, mais especificamente, pela linguagem Elixir. Acabei me deparando com uma ferramenta\u2026",
+            "link": "https://www.linkedin.com/posts/rafael-ferraz-rodrigues_use-elixir-directly-in-livebook-activity-7049093492198842368-5K-X",
+            "activity_status": "Compartilhado por Rafael Ferraz Rodrigues"
+        },
+        {
+            "title": "There's a right and a wrong way to reverse an array in JavaScript.It's a subtle difference. But in the second example, we spread the original array\u2026",
+            "link": "https://www.linkedin.com/posts/madsbrodt_theres-a-right-and-a-wrong-way-to-reverse-activity-7049004450190897152-rOnf",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        },
+        {
+            "title": "Business logic is the ultimate center of the Clean Architecture in your React app. Here's how to drive its development using unit tests:While\u2026",
+            "link": "https://www.linkedin.com/posts/niksumeiko_business-logic-is-the-ultimate-center-of-activity-7048952851833733120-8ou_",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        },
+        {
+            "title": "Ol\u00e1 pessoal,Hoje em dia, a intelig\u00eancia artificial (IA) est\u00e1 rapidamente transformando a forma como as empresas operam e como os funcion\u00e1rios\u2026",
+            "link": "https://www.linkedin.com/posts/hayfrodrigo_intelig%C3%AAnciaartificial-transforma%C3%A7%C3%A3odigital-activity-7048794736307937281-AEsM",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        },
+        {
+            "title": "Fala a\u00ed dev!Esse papo de hard skill \u00e9 maneiro e sei que tu gosta bastante.Padr\u00f5es de projeto, clean code, testes, mensageria, banco de dados e\u2026",
+            "link": "https://www.linkedin.com/posts/fabricio-vallim-026aaa31_developer-softwaredeveloper-softwareengineer-activity-7048301297904590848-nl_C",
+            "activity_status": "Rafael Ferraz Rodrigues gostou"
+        }
+    ],
+    "similarly_named_profiles": [
+        {
+            "name": "Rafael Ferraz Rodrigues",
+            "link": "https://br.linkedin.com/in/rafael-ferraz-rodrigues-47354b174",
+            "summary": "--",
+            "location": "Brasil"
+        },
+        {
+            "name": "Rafael Rodrigues Ferraz",
+            "link": "https://br.linkedin.com/in/rafael-rodrigues-",
+            "summary": "Estudante de An\u00e1lise e Desenvolvimento de Sistemas",
+            "location": "Barueri, SP"
+        },
+        {
+            "name": "Rafael rodrigues ferraz",
+            "link": "https://br.linkedin.com/in/rafael-rodrigues-ferraz-127490245",
+            "summary": "--",
+            "location": "Planaltina, DF"
+        },
+        {
+            "name": "Rafael Rodrigues ferraz",
+            "link": "https://br.linkedin.com/in/rafael-rodrigues-ferraz-a20639246",
+            "summary": "--",
+            "location": "Bras\u00edlia, DF"
+        }
+    ],
+    "articles": [],
+    "groups": [],
+    "phone_numbers": [],
+    "social_networking_services": [],
+    "skills": [],
+    "inferred_salary": null,
+    "gender": null,
+    "birth_date": null,
+    "industry": null,
+    "extra": null,
+    "interests": [],
+    "personal_emails": [],
+    "personal_numbers": []
+}

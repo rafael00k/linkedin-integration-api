@@ -1,0 +1,89 @@
+service: linkedin-integration-api
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+        
+plugins:
+  - serverless-plugin-typescript
+  - serverless-dynamodb-local
+  - serverless-offline-dynamodb-streams
+  - serverless-offline
+  
+
+custom:
+  dynamodb:
+  
+    stages:
+      - local
+      - dev
+    start:
+      migrate: true
+      docker: true
+      port: 8000
+      inMemory: false
+      convertEmptyValues: true
+      noStart: true
+  serverless-offline-dynamodb-streams:
+    apiVersion: '2013-12-02'
+    endpoint: http://0.0.0.0:8000
+    region: eu-west-1
+    accessKeyId: root
+    secretAccessKey: root
+    skipCacheInvalidation: false
+    readInterval: 500  
+
+  
+resources:
+  Resources:
+    profileTable:
+     Type: AWS::DynamoDB::Table
+     DeletionPolicy: Delete
+     Properties:
+      TableName: ProfileTableNew
+      AttributeDefinitions:
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: id
+          KeyType: HASH
+      ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+      StreamSpecification:
+        StreamViewType: NEW_IMAGE
+
+functions:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
+  insertProfile:
+    handler: profile/presentation/lambdas/insertProfile.handler
+    events:
+      - httpApi:
+          path: /profile
+          method: post
+  getProfiles:
+    handler: profile/presentation/lambdas/getProfiles.handler
+    events:
+      - httpApi:
+          path: /profile
+          method: get
+  profileStream:
+    handler: stream/lambdas/stream.handler
+    events:
+      - stream:
+          enabled: true
+          type: dynamodb
+          batchSize: 1
+          startingPosition: LATEST
+          arn:
+            Fn::GetAtt:
+              - profileTable
+              - StreamArn
+
+

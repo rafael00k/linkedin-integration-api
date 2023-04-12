@@ -1,0 +1,1 @@
+{"version":3,"file":"elastic.config.js","sourceRoot":"","sources":["../../database/elastic.config.ts"],"names":[],"mappings":";;;AAAA,wDAA6C;AAChC,QAAA,OAAO,GAAG,IAAI,sBAAM,CAAC;IAC9B,IAAI,EAAE,uBAAuB;IAC7B,UAAU,EAAE,CAAC;IACb,cAAc,EAAE,KAAK;CACxB,CAAC,CAAA"}
